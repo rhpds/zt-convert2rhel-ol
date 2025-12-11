@@ -2,7 +2,7 @@
 containers: []
 virtualmachines:
   - name: "host1"
-    image: "rhel-9.5"
+    image: "oracle-linux-9-6"
     memory: "2G"
     cores: 1
     image_size: "40G"
