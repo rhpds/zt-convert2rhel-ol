@@ -3,7 +3,8 @@ containers: []
 virtualmachines:
   - name: "host1"
     image: "oracle-linux-9-6"
-    memory: "2G"
+    bootloader: "efi"
+    memory: "8G"
     cores: 1
     image_size: "40G"
     tags:
