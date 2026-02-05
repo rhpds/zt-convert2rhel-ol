@@ -8,10 +8,10 @@ antora:
       label: "Install Convert2RHEL"
       solveButton: false
     - name: module-02
-      label: "Analyze"
+      label: "Analyze and Remediate"
       solveButton: false
     - name: module-03
-      label: "Remediate"
+      label: "Convert"
       solveButton: false
 
 tabs:
