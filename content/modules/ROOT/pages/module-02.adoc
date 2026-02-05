@@ -1,4 +1,4 @@
-= Antora
+= Analyze and Remediate
 
 The `antora` key in `ui-config.yml` defines how the documentation site is built using Antora.
 
