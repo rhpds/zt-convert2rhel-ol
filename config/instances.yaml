@@ -1,7 +1,7 @@
 ---
 containers: []
 virtualmachines:
-  - name: "host1"
+  - name: "rhel"
     image: "oracle-linux-9-6"
     bootloader: "efi"
     memory: "8G"
