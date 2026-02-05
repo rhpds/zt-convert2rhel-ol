@@ -4,13 +4,13 @@ antora:
   name: modules
   dir: www
   modules:
-    - name: install
+    - name: module-01
       label: "Install Convert2RHEL"
       solveButton: false
-    - name: analyze
+    - name: module-02
       label: "Analyze"
       solveButton: false
-    - name: remediate
+    - name: module-03
       label: "Remediate"
       solveButton: false
 
