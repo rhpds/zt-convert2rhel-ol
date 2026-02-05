@@ -7,11 +7,11 @@ lab:
   maintainer: "Will Kibbe (wkibbe@redhat.com)" 
   
   description:
-    summary: "Learn how to use Command Line Assistant offline in Red Hat Enterprise Linux"
-    goal: "Configure Command Line Assistant for offline use"
+    summary: "Learn how to convert an Oracle Linux system to Red Hat Enterprise Linux"
+    goal: "Convert an Oracle Linux system to Red Hat Enterprise Linux"
     concepts:
-     - "Command Line Assistant"
-    use_case: "Use Command Line Assistant while processing data locally"
+     - "Convert2RHEL"
+    use_case: "Migrate to Red Hat Enterprise Linux"
     time_to_complete: "10"
     
   git_ref:
