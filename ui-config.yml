@@ -4,14 +4,15 @@ antora:
   name: modules
   dir: www
   modules:
-    - name: module-01
+    - name: install
       label: "Writing your lab"
-      solveButton: true
-    - name: module-02
+      solveButton: false
+    - name: analyze
       label: "Antora"
-      solveButton: true
-    - name: module-03
+      solveButton: false
+    - name: remediate
       label: "Tabs"
+      solveButton: false
 
 tabs:
   - name: ">_ terminal"
