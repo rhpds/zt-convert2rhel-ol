@@ -5,13 +5,13 @@ antora:
   dir: www
   modules:
     - name: install
-      label: "Writing your lab"
+      label: "Install Convert2RHEL"
       solveButton: false
     - name: analyze
-      label: "Antora"
+      label: "Analyze"
       solveButton: false
     - name: remediate
-      label: "Tabs"
+      label: "Remediate"
       solveButton: false
 
 tabs:
