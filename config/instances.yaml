@@ -2,7 +2,7 @@
 containers: []
 virtualmachines:
   - name: "rhel"
-    image: "oracle-linux-9-6"
+    image: "oracle-linux-9-7"
     bootloader: "efi"
     memory: "8G"
     cores: 1
