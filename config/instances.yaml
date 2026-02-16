@@ -9,7 +9,7 @@ virtualmachines:
     image_size: "40G"
     tags:
       - key: "AnsibleGroup"
-        value: "bastions"
+        value: "isolated"
     networks:
       - default
       - secondary
