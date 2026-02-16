@@ -7,9 +7,10 @@ virtualmachines:
     memory: "8G"
     cores: 1
     image_size: "40G"
+    register_satellite: false
     tags:
       - key: "AnsibleGroup"
-        value: "isolated"
+        value: "bastions"
     networks:
       - default
       - secondary
