@@ -14,3 +14,8 @@ virtualmachines:
     networks:
       - default
       - secondary
+    userdata: |-
+      #cloud-config
+      runcmd:
+        - rm /etc/ssh/sshd_config.d/01-permitrootlogin.conf 
+        - systemctl reload sshd
