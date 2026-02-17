@@ -15,6 +15,8 @@ sudo curl -o /etc/yum.repos.d/convert2rhel.repo https://cdn-public.redhat.com/co
 
 This lab explains the purpose and structure of the YAML configuration used in an Antora-based documentation site.
 
-=== Basic Structure
-
-The configuration is written in YAML `ui-config.yml` and includes two main sections: `antora` and `tabs`. Click next to know more.
+=== Install Convert2RHEL
+[source,bash,run]
+----
+sudo dnf -y install convert2rhel
+----
