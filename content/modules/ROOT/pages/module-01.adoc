@@ -18,5 +18,5 @@ This lab explains the purpose and structure of the YAML configuration used in an
 === Install Convert2RHEL
 [source,bash,run]
 ----
-sudo dnf -y install convert2rhel
+sudo dnf install -y convert2rhel
 ----
