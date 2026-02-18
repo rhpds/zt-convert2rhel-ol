@@ -1,4 +1,4 @@
-= Install Convert2RHEL
+== Install Convert2RHEL
 
 === Add GPG Key
 [source,bash,run]
