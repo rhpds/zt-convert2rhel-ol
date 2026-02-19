@@ -15,7 +15,7 @@ lab:
     time_to_complete: "10"
     
   git_ref:
-    production: "prod"
+    production: "v0.0.1"
     development: "dev"
 
 # DYNAMIC EXTRACTION SOURCES:
