@@ -1,15 +1,21 @@
 ---
 containers: []
 virtualmachines:
-  - name: "host1"
-    image: "oracle-linux-9-6"
+  - name: "rhel"
+    image: "oracle-linux-9-7"
     bootloader: "efi"
     memory: "8G"
     cores: 1
     image_size: "40G"
+    register_satellite: false
     tags:
       - key: "AnsibleGroup"
         value: "bastions"
     networks:
       - default
       - secondary
+    userdata: |-
+      #cloud-config
+      runcmd:
+        - rm /etc/ssh/sshd_config.d/01-permitrootlogin.conf 
+        - systemctl reload sshd
