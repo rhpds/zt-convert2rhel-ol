@@ -1,4 +1,10 @@
 == Analyze and Remediate
+=== Perform the pre-conversion analysis
+[source,bash,run]
+----
+sudo convert2rhel analyze --org 12451665 --activationkey convert2rhel -y
+
+----
 
 === Switch to a standard kernel
 [source,bash,run]
