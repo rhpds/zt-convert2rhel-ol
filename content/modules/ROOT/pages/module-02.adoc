@@ -5,7 +5,7 @@
 sudo convert2rhel analyze --org 12451665 --activationkey convert2rhel -y
 
 ----
-You will see a message warning that your kernel is causing issues with the conversion:
+You will see a message warning that a package is causing issues with the conversion:
 ```
 ========== Error (Must fix before conversion) ==========
 (ERROR) RHEL_COMPATIBLE_KERNEL::INCOMPATIBLE_VERSION - Incompatible booted kernel version
