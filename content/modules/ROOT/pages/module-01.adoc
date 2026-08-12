@@ -1,7 +1,22 @@
 = Convert to RHEL from Oracle Linux
-Convert2RHEL allows you to migrate in place to Red Hat Enterprise Linux from several Linux operating systems, including Rocky Linux, Oracle Linux, CentOS, and Alma Linux. In this lab, you will use Convert2RHEL to convert an Oracle Linux 9.7 system to Red Hat Enterprise Linux 9.7.
 == Install Convert2RHEL
-Install Convert2RHEL.
+
+=== Add GPG Key
+[source,bash,run]
+----
+sudo curl -o /etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release https://security.access.redhat.com/data/fd431d51.txt
+----
+
+
+=== Add Repo
+[source,bash,run]
+----
+sudo curl -o /etc/yum.repos.d/convert2rhel.repo https://cdn-public.redhat.com/content/public/repofiles/convert2rhel-for-rhel-9-x86_64.repo
+----
+
+This lab explains the purpose and structure of the YAML configuration used in an Antora-based documentation site.
+
+=== Install Convert2RHEL
 [source,bash,run]
 ----
 sudo dnf install -y convert2rhel
